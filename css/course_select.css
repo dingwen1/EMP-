@@ -1,0 +1,41 @@
+#course_teacher{
+							width:80%;
+							height:auto;
+							margin:0 auto;
+							font-family:微软雅黑;
+							padding:10px;
+						}
+
+#cour{height:200px;
+			
+}
+
+#hr{width:100%;border-color:#000;}
+
+.h{font-size:24px;line-height:44px;
+			font-family:幼圆;}
+
+table{width:90%;margin:0 auto;
+			background-color:#eee;
+			opacity:0.6;
+			text-align:center;
+			box-shadow:#000 0 0 10px;
+		}
+.table_h td,.table_h{font-size:20px;color:#000;}
+
+td{background-color:#fff;
+		height:35px;}
+
+h4{font-size:18px;
+		font-family:幼圆;
+		margin-left:30px;margin-top:15px;}
+
+#cour_s{display:block;width:550px;
+				height:50px; margin-left:40px;
+				color:#666;font-size:16px;}
+
+#teac ol{margin-left:20px;margin-top:10px;}
+
+#teac li{color:#666;font-size:16px;}
+
+#teac img{margin-right:50px;box-shadow:#000 0 3px 8px;border-radius:4px;}

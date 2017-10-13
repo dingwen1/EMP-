@@ -1,0 +1,33 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+	font-family: 微软雅黑;
+}
+
+body{background-image: url(../img/bg-cyan.jpg);}
+
+table{background-color: #eee;opacity: 0.7;margin: 0 auto;
+		width:877px;height: auto;text-align: center;
+		margin-top: 0px;font-size: 18px;box-shadow: #000 0 0 5px;}
+
+td{background-color: #fff;opacity:0.7;height: 40px;}
+#table_h{font-weight: bold;color:#333;font-size: 20px;}
+a {
+	text-decoration: none;
+	color:#34B59F;;
+}
+
+#course_header{width: 877px;margin: 0 auto; margin-top: 50px;
+			height: 80px;background-color: #fff;
+			opacity: 0.75;box-shadow: #000 0 0 8px;
+			border-bottom: 1px solid #aaa;padding-top: 0px;}
+#course_header a{color: #666;font-size:18px;}
+#course_header h4{font-family: Times new roman,微软雅黑;font-size:30px;margin-left: 40px;
+			line-height: 1.4em;color: #333}
+#a1{position: relative;top:5px;left:38px;}
+#a2{position: relative;top:5px;left:700px;}
+#a1:hover,a:hover{text-decoration: underline;color: #000;}
+#a2:hover{text-decoration: underline;color: #000;}

@@ -1,0 +1,35 @@
+
+
+
+/* case */
+.case{background-color:#fff;opacity:0.8; height:470px;overflow:hidden;width:100%;margin-top:20px;}
+.case_box{position:relative;margin:0px auto ;width:860px;height:470px;overflow:hidden;opacity:1;}
+.case_box p{z-index:2;position:absolute;text-indent:-9999px;width:28px;height:51px;top:40%;cursor:pointer}
+.case_box .prev{text-indent:-9999px;background:url(../img/previous.png) no-repeat;left:0px}
+.case_box .next{background:url(../img/next.png) no-repeat;top:40%;right:0px}
+.case_box ul{position:absolute;height:470px;overflow:hidden;top:0px;left:0px}
+.case_box ul li{width:860px;float:left;height:470px}/*每页轮播内容*/
+.case_info dd{line-height:300px;margin:30px 0px 0px 475px;width:350px;
+						color:#23AA9D;font-size:300px;overflow:hidden;
+						font-family:华文新魏;text-shadow:#000 0 0 10px;opacity: 0.2;}
+		/*轮播图上的文本框内容*/
+.case_box ul li dl.case_info dd{text-indent:26px}
+
+.case_box ul li.case_1{background:url(../img/lunbo4.jpg) no-repeat center top;background-size:100% 100%}
+.case_box ul li.case_2{background:url(../img/lunbo1.jpg) no-repeat center top;background-size:100% 100%}
+.case_box ul li.case_3{background:url(../img/lunbo.jpg) no-repeat center top;background-size:100% 100%}
+.case_box ul li.case_4{background:url(../img/lunbo5.jpg) no-repeat center top;background-size:100% 100%}
+.case_box ul li.case_5{background:url(../img/banner.jpg) no-repeat center;background-size:100% 100%}
+.case_box ul li.case_6{background:url(../img/lunbo3.jpg) no-repeat center top;background-size:100% 100%}
+
+.case_box ul li.case_2 dl{margin-top:150px}
+.case_box ul li.case_3 dl{margin-top:135px}
+.case_box ul li.case_4 dl{margin-top:110px}
+.case_box ul li.case_5 dl{margin-top:120px}
+.case_box ul li.case_6 dl{margin-top:115px}
+
+.case_info_add dd{line-height:22px}
+
+.case_box ol{position:absolute;bottom:0;left:50%;margin:0 0 20px -65px;height:12px;z-index:99;}
+.case_box ol li{float:left;margin:0 4px;display:inline;width:12px;height:12px;line-height:999em;background:url(../img/pagination.png) no-repeat;overflow:hidden;cursor:pointer;}
+.case_box ol li.active{background-position:0 -12px;}

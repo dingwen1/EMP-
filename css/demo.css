@@ -1,0 +1,80 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+	font-family: 微软雅黑;
+	transition:background-position 5s;
+}
+
+body:hover{background-position: 50% 0%;transition:background-position 5s;}
+a {
+	text-decoration: none;
+	color:#34B59F;margin-left: 40px;
+}
+#at{margin-left:20px;}
+a:hover {
+	text-decoration: underline;color: #000;
+}
+.bg-cyan {
+	background-image: url(../img/loginback.jpg);
+}
+.body {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.body-s {
+	max-width: 400px;
+}
+.modal {
+	padding: 25px 30px;
+	background: rgba(255,255,255,0.9);
+	font: 13px/1.55 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #666;
+}
+.modal a {
+	color: #2da5da;
+}
+
+header{font-size: 25px;
+	font-family: times new roman;background-color: #E3EEED;
+	width: 375px;height: 80px;border-bottom: 1px solid #CED9D9;
+	line-height: 80px;padding-left: 25px;
+	opacity: 0.9;margin:0;box-shadow: #000 0 0 5px;
+}
+#div{width: 400px;height: 300px;background-color: #e8f8f8;
+	box-shadow: #000 0 0 5px;margin: 0 auto;opacity: 0.7;
+	margin-top: 100px;}
+
+fieldset{margin:0;width: 400px;padding:0;height: 160px;
+			border:0;}
+
+section{margin-top: 30px;margin-left:20px;font-size: 20px;
+		}
+#i1,#i2,#i3,#i4{width:280px;height: 30px;background-color: #fff;
+		opacity: 1;
+		}
+
+footer{border-top: 1px solid #ced9d9;}
+.button{width: 150px;height: 44px;background-color: #34B59F;
+		border:0;margin-left: 35px;margin-top: 6px;
+		font-size: 20px;color:#ddd;
+}
+.button:hover{background-color: #01926c;color: #000;
+				box-shadow: #000 0 0 5px;}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+	.body {
+		padding: 20px;
+	}
+}

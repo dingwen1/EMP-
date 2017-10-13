@@ -1,0 +1,22 @@
+body{
+	background:url(../img/loginback.jpg) ;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+a{
+	text-decoration:none;
+}
+header{
+	text-align:right;
+}
+header a{
+	font-family:微软雅黑;
+	font-size:20px;
+	color:#000000;
+}
+header a:hover{
+	text-decoration:underline;
+	color:#0F67A1;
+}
+
